@@ -1,1 +1,19 @@
+server.port: 7070
+
+spring:
+  jpa:
+    open-in-view: false
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      show-sql: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rest_api
+    username: postgres
+    password: 654654654zxA@
+    driverClassName: org.postgresql.Driver
+  sql:
+    init:
+      platform: postgres
 
